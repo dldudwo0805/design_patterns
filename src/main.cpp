@@ -1,11 +1,9 @@
 #include <iostream>
 #include "creational_pattern/creational_common.hpp"
+#include "behavioral_pattern/behavioral_common.hpp"
 
 int main(int argc, char** argv) {
-  
-   builder::Director* director = new builder::Director();
-  builder::ClientCode(*director);
-  delete director;
-  
+    strategy::ClientCode();
+
   return 0;
 }

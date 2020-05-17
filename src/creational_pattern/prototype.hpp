@@ -57,7 +57,7 @@ public:
 
 class PrototypeFactory {
 private:
-  std::unordered_map<Type, Prototype*, std::hash<int>> prototypes_;
+  std::unordered_map<Type, Prototype*, std::hash<int> > prototypes_;
 
 public:
   PrototypeFactory() {
