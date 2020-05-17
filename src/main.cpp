@@ -1,16 +1,11 @@
 #include <iostream>
-#include "creational_pattern/singleton.hpp"
-#include "creational_pattern/factory_method.hpp"
-#include "creational_pattern/prototype.hpp"
+#include "creational_pattern/creational_common.hpp"
 
 int main(int argc, char** argv) {
-
-  PrototypeFactory* factory = new PrototypeFactory();
-  Prototype* prototype = factory->CreatePrototype(Type::PROTO_TYPE_1);
-  prototype->Method(10);
-
-  prototype = factory->CreatePrototype(Type::PROTO_TYPE_2);
-  prototype->Method(20);
-
+  
+   builder::Director* director = new builder::Director();
+  builder::ClientCode(*director);
+  delete director;
+  
   return 0;
 }

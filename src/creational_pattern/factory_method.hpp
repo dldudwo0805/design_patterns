@@ -7,6 +7,8 @@
 //At each concretor creator class, call product concrete class's constructor and return there pointer
 #include "common.hpp"
 
+namespace factory_method 
+{
 class Product {
 public:
   virtual ~Product() {}
@@ -15,7 +17,7 @@ public:
 
 class ConcreateProduct1 : public Product {
 public:
-  std::string Operation() const override{ //check override command
+  std::string Operation() const override { //check override command
     return "{Result of the ConreateProduct1}";
   }
 };
@@ -54,6 +56,6 @@ public:
   }
 };
 
-
+}//factory_method
 #endif // !_FACTORY_METHOD_HPP
 
