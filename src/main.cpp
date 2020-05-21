@@ -3,7 +3,7 @@
 #include "behavioral_pattern/behavioral_common.hpp"
 
 int main(int argc, char** argv) {
-    strategy::ClientCode();
+  observer::ClientCode();
 
   return 0;
 }

@@ -8,6 +8,7 @@
 #include <unordered_map>
 #include <thread>
 #include <mutex>
+#include <list>
 
 
 #endif // !_COMMON_HPP_
