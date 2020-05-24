@@ -2,6 +2,7 @@
 #define _BEHAVIORAL_COMMON_HPP_
 #include "strategy.hpp"
 #include "observer.hpp"
+#include "template_method.hpp"
 
 
 
