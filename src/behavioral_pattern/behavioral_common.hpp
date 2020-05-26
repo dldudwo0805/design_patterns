@@ -3,6 +3,7 @@
 #include "strategy.hpp"
 #include "observer.hpp"
 #include "template_method.hpp"
+#include "visitor.hpp"
 
 
 

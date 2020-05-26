@@ -9,6 +9,7 @@
 #include <thread>
 #include <mutex>
 #include <list>
+#include <array>
 
 
 #endif // !_COMMON_HPP_

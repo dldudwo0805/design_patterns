@@ -3,6 +3,7 @@
 #include "behavioral_pattern/behavioral_common.hpp"
 
 int main(int argc, char** argv) {
-  template_method::ClientCode();
+  visitor::ClientCode();
+
   return 0;
 }
