@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(
 	src
 	src/creational_pattern
-        src/behavioral_pattern
+	src/behavioral_pattern
+	src/structural_pattern
 )
 
 add_executable(${PROJECT_NAME} src/main.cpp)
